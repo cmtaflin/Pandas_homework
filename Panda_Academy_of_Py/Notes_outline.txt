@@ -1,0 +1,34 @@
+Import pandas
+bring in both csv files
+
+print a few lines of data headers of both files
+
+Manipulate the data and organize
+
+Need to merge data:
+Add to Student data: School Type--> type in school_data
+Question: Do i need to move size and budget to student level 
+       ---Size would be helpful when doing averages of the school, but not by Grade
+       --Other side, there is little to no value
+       
+Run analysis on data set (.describe)
+
+
+Look for issues with the data (un-even records, null values, etc.)
+
+
+total_schools =school_data ["School Id"].count()
+total_students=student_data ["Student Id].count()
+total_budget =school_data["budget"].sum()
+
+Avg_math_score = 
+                        Avg_reading_score=````````````
+                        
+       
+                        
+                        
+                        
+                        
+                        
+                        
+                        
